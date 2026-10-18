@@ -1,0 +1,37 @@
+{
+  "Serial": {
+    "PortName": "COM1",
+    "BaudRate": 115200,
+    "DataBits": 8,
+    "Parity": 0,
+    "StopBits": 1
+  },
+  "Speed": 85,
+  "AutoReconnect": false,
+  "LastPage": "\u4E32\u53E3",
+  "BackgroundImagePath": "",
+  "Filter": {
+    "MovingWindow": 11,
+    "SampleRate": 1000,
+    "CutoffFreq": 50,
+    "Quality": 0.707,
+    "KalmanQ": 0.001,
+    "KalmanR": 0.02
+  },
+  "Pid": {
+    "Kp": 1.2,
+    "Ki": 0.02,
+    "Kd": 0.3,
+    "Speed": 1.5,
+    "LookAhead": 3,
+    "IntegralLimit": 5,
+    "MaxSteer": 0.5,
+    "MaxSteps": 600,
+    "Ku": 8,
+    "Tu": 40,
+    "MaxOutput": 5
+  },
+  "DataSize": 100,
+  "MatrixRows": 3,
+  "MatrixCols": 3
+}
