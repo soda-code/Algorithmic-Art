@@ -1,0 +1,29 @@
+# ---------- .NET 构建产物 ----------
+bin/
+obj/
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# ---------- 发布产物 ----------
+publish/
+publish-standalone/
+*.zip
+
+# ---------- 运行时生成的配置与日志 ----------
+config.json
+crash.log
+
+# ---------- IDE / 编辑器 ----------
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ---------- 操作系统 ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
